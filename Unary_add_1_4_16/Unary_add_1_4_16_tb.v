@@ -55,9 +55,9 @@ module Unary_add_1_4_16_tb;
         A = 1; B = 1; #10;   // Clock 4
         A = 1; B = 1; #10;   // Clock 5
         A = 1; B = 1; #10;   // Clock 6
-        A = 1; B = 1; #10;   // Clock 7
+        A = 1; B = 0; #10;   // Clock 7
         A = 1; B = 1; #10;   // Clock 8
-        A = 1; B = 1; #10;   // Clock 9
+        A = 0; B = 0; #10;   // Clock 9
         A = 1; B = 1; #10;   // Clock 10
         A = 1; B = 1; #10;   // Clock 11
         A = 1; B = 1; #10;   // Clock 12

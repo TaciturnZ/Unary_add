@@ -63,10 +63,10 @@ module Unary_add_1_4_14_tb;
         A = 1; B = 1; #10;   // Clock 12
         A = 1; B = 1; #10;   // Clock 13
         A = 1; B = 1; #10;   // Clock 14
-        A = 1; B = 1; #10;   // Clock 15
-        A = 1; B = 1; #10;   // Clock 16
-        A = 1; B = 1; #10;   // Clock 17
-        A = 1; B = 1; #10;   // Clock 18
+        A = 1; B = 0; #10;   // Clock 15
+        // A = 1; B = 1; #10;   // Clock 16
+        // A = 1; B = 1; #10;   // Clock 17
+        // A = 1; B = 1; #10;   // Clock 18
 
         // Switch to write mode to output count values
         read_or_write = 1; 
