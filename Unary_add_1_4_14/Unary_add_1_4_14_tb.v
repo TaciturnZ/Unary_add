@@ -1,4 +1,4 @@
-module Unary_add_1_4_15_tb;
+module Unary_add_1_4_14_tb;
 
     // Inputs
     reg A;
@@ -13,7 +13,7 @@ module Unary_add_1_4_15_tb;
     wire C;
 
     // Instantiate the Unit Under Test (UUT)
-    Unary_add_1_4_15 uut (
+    Unary_add_1_4_14 uut (
         .A(A), 
         .B(B), 
         .en(en), 
@@ -34,7 +34,7 @@ module Unary_add_1_4_15_tb;
     initial begin
 
         $dumpfile("wave.vcd");  // 指定波形文件的名称
-        $dumpvars(0, Unary_add_1_4_15_tb); // Dump所有信号
+        $dumpvars(0, Unary_add_1_4_14_tb); // Dump所有信号
         // Initialize inputs
         en = 0;
         rst_n = 0;
